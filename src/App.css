@@ -17,7 +17,6 @@ li {
 }
 
 textarea {
-  background-color: rgb(255, 253, 234);
   border-radius: 5px;
   border: 0.1px solid black;
   font-size: 18px;
@@ -25,8 +24,8 @@ textarea {
 }
 
 .saveBtn {
+  background-color: white;
   display: flex;
-  background-color: rgb(255, 253, 234);
   border: 0.1px solid black;
   padding: 5px;
   border-radius: 5px;
