@@ -19,6 +19,7 @@ const App = () => {
   return (
     <div className="container">
       <h3>Pirkinių sąrašas </h3>
+      <br></br>
       <ul>
         {products.map((data, index) => {
           return (
@@ -29,7 +30,7 @@ const App = () => {
           );
         })}
       </ul>
-      <textarea value={text} rows="10" cols="35" onChange={handleChange} />
+      <textarea value={text} rows="18" cols="35" onChange={handleChange} />
       <button
         className="saveBtn"
         onClick={() => {
